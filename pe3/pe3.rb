@@ -16,8 +16,6 @@ max = (n**(1/2.0)).to_i
     factors << f
   end
 end
-puts factors
-puts ""
 
 compositefactors = []
 for factor in factors
@@ -28,10 +26,6 @@ for factor in factors
     end
   end
 end
-puts compositefactors
-puts""
 
 factors -= compositefactors
-puts factors
-puts ""
 puts factors[-1]
